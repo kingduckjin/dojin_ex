@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.header {
+    height: 150px;
+    background-color: aliceblue;
+}
+
+.main {
+    width: 1200px;
+    height: 2000px;
+    text-align: center;
+    margin: auto;
+
+}
+
+.footer {
+    height: 200px;
+    background-color: aliceblue;
+}
+
+
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+/* ━━━━━━━━━━━━━━━━━━━━━━━헤더━━━━━━━━━━━━━━━━━━━━━━━━ */
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ━━━━━━━━━━━━━━━━━━━━━━로  고━━━━━━━━━━━━━━━━━━━━━━━ */
+
+
+
+/* ━━━━━━━━━━━━━━━━━━━━━━로그인━━━━━━━━━━━━━━━━━━━━━━━ */
+.header>nav>ul {
+    display: flex;
+    margin: 10px;
+}
+
+.header>nav>ul>li {
+    padding: 10px;
+}
+
+
+/* ━━━━━━━━━━━━━━━━━━━━━━카테고리━━━━━━━━━━━━━━━━━━━━━━━ */
+.header>div>ul {
+    display: flex;
+}
+
+.header>div>ul>li {
+    padding: 10px;
+}
+
+
+
+
+
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+/* ━━━━━━━━━━━━━━━━━━━━━━━메인━━━━━━━━━━━━━━━━━━━━━━━━ */
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+
+/* .main {} */
+
+
+/* ━━━━━━━━━━━━━━━━━━━━━━━배너━━━━━━━━━━━━━━━━━━━━━━━━ */
+.banner {
+    height: 20%;
+    width: 100%;
+}
+
+.banner ul {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.banner ul>li {
+    width: 100%;
+}
+
+.banner a{
+    width: 100%;
+}
+
+.banner img {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+.main_product {
+    background-color: antiquewhite;
+    height: 40%;
+}
+
+.adBOx {
+    height: 20%;
+    background-color: aliceblue;
+}
+
+.reviewBox {
+    height: 20%;
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+/* ━━━━━━━━━━━━━━━━━━━━━━━푸터━━━━━━━━━━━━━━━━━━━━━━━━ */
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+}
+
+.SNS>ul,
+.agreement>ul,
+.COMPANY {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.COMPANY {
+    flex-wrap: wrap;
+}
+
+.COMPANY>span {
+    border-right: solid 1px;
+}
+
+.SNS>ul>li,
+.agreement>ul>li,
+.runTime {
+    margin: 10px;
+}

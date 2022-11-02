@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    /* user-select: none; */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main_container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.slide_container {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+.slide_list {
+    display: flex;
+    width: 300px;
+    height: 400px;
+    position: absolute;
+
+}
+
+.slide_list li img {
+    width: 300px;
+    height: 400px;
+}
+
+a {
+    position: absolute;
+    /* top: 50%;
+    transform: translateY(-50%); */
+    opacity: .3;
+}
+
+.btn_back {
+    right: 100%;
+}
+
+.btn_next {
+    left: 100%;
+}
+
+a:hover {
+    opacity: 1;
+}
+
+/* visible 말고 hidden으로 잡자 */
+a.hidden {
+    display: none;
+}
