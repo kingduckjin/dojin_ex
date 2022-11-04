@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 48px;
+    word-break: break-all;
+    font-style: italic;
+    letter-spacing: 5px;
+}
+
+/* 버튼================================ */
+
+.btn {
+    width: 40px;
+    height: 40px;
+    border: none;
+    position: absolute;
+    opacity: 0.5;
+}
+
+.upBtn {
+    background: url('../IMAGE/upbtn.png') center/100%;
+    right: 1%;
+    top: 45%;
+    transform: translateY(-40px);
+    position: fixed;
+}
+
+.downBtn {
+    background: url('../IMAGE/downbtn.png') center/100%;
+    right: 1%;
+    top: 55%;
+    transform: translateY(-40px);
+    position: fixed;
+}
+
+.btn.hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.page_container {
+    position: relative;
+}
+
+/* 레이아웃 , 백그라운드 이미지 ===============================*/
+
+.page {
+    height: 100vh;
+    overflow: hidden;
+    padding: 10px;
+    color: blue;
+}
+
+.page1 {
+    background-color: yellow;
+}
+
+.page2 {
+    background-color: khaki;
+}
+
+.page3 {
+    background-color: lemonchiffon;
+}
+
+.page4 {
+    background-color: azure;
+}
+
+/* 이미지 ================================================== */
+
+
+
+.img {
+    float: left;
+    width: 350px;
+    height: 450px;
+    background-size: 100% 100%;
+margin: 10px;
+}
+
+p::after {
+    content: '';
+    display: block;
+    clear: left;
+}
+
+.img1 {
+    background-image: url('../IMAGE/marlboro.jpg');
+}
+
+.img2 {
+    background-image: url('../IMAGE/marlboro3.jpg');
+}
+
+.img3 {
+    background-image: url('../IMAGE/mildeseven1.jpg');
+}
+
+.img4 {
+    background-image: url('../IMAGE/rason2.jpg');
+}
+
+/* 텍스트 ==================================================== */
+
+.page>p {
+    text-shadow: 4px 4px lightgray;
+}

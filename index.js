@@ -25,3 +25,4 @@ console.log(output2());
 console.log();
 
 console.log(output());
+
